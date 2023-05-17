@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Set</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    
+    <link href="styleoutput.css" rel="stylesheet">
+    
+    <script src="comp1.js"></script>
+
+</head>
+<body>
+    <main>
+        <h1>City of Calgary Public Databases</h1>
+        
+        <br>
+        <div id="parent">
+        <table class="position">
+        <tr><th colspan="2"><b>Traffic Incidents </b></th></tr>
+            <tr><td>Quadrant</td><td><input type="text" id="quadrant" size="2" placeholder="NE/SW" onkeyup="changeFunction()" ></td></tr>
+           <tr><td>Description </td><td><input type="text" id="des" onkeyup="changeFunction()" placeholder="Multivehicle"  ></td></tr>
+            <tr><td>Date and Time </td><td><input type="text" id="date" onkeyup="changeFunction()" ></td></tr>
+                   
+        
+        <tr><th colspan="2"><b> Building Inspection Results</b></th></tr>
+        
+                           
+            <tr><td>File Number</td><td><input type="text" id="efn" onkeyup="changeFunction()" ></td></tr>
+            <tr><td>Inspection Type</td><td><input type="text" id="itype" onkeyup="changeFunction()"></td></tr>
+            <tr><td>Description </td><td><input type="text" id="des2" onkeyup="changeFunction()" ></td></tr>
+
+            
+        <tr><th colspan="2"><b> Parks Sport Equipment</b></th></tr>
+            <tr><td>Assect_CD </td><td><input type="text" id="cd" onkeyup="changeFunction()" ></td></tr>
+            <tr><td>Maintained By </td><td><input type="text" id="mby" onkeyup="changeFunction()"></td></tr>
+            <tr><td>Type </td><td><input type="text" id="td" onkeyup="changeFunction()"></td></tr>
+        
+        <tr><th colspan="2"><b> Public Art</b></th></tr>
+            <tr><td>Artist Name </td><td><input type="text" id="sc" onkeyup="changeFunction()"  ></td></tr>
+            <tr><td>Title </td><td><input type="text" id="ti" onkeyup="changeFunction()"  ></td></tr>
+            <tr><td>Tab Name</td><td><input type="text" id="tn"  placeholder="Southwest" onkeyup="changeFunction()" ></td></tr>
+            </table>
+        </div> 
+        
+        <div id="child1">
+        <table id="searchresults">
+        
+        </table>
+    </div>
+        </main>
+        </body>
+        </html>

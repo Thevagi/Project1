@@ -1,0 +1,55 @@
+body{
+    font-family:cursive;
+    background-color: rgb(245, 148, 248);
+}
+main{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 8px 8px 8px rgb(112, 7, 59), 10px 10px 10px white, 15px 15px 15px rgb(116, 215, 240);
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: crimson;
+    text-shadow:3px 3px 5px blue ;
+    letter-spacing: 10px;
+}
+#parent {
+    border-collapse: collapse;
+    
+
+}
+table.position{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#parent th {
+    background-color: rgb(211, 236, 122);
+    Color:rgb(235, 8, 8);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#child1 th{
+    background-color: rgb(122, 229, 236);
+    Color:blue;
+
+}
+
+
+
+th, td {
+    width:150px;
+    border:2px solid rgb(4, 105, 4);
+    padding:5px
+
+}
+#searchresults td, #searchresults td{
+    text-align: center;
+}
